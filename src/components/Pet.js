@@ -14,6 +14,9 @@ class Pet extends React.Component {
     let dis = <button className="ui disabled button">Already adopted</button>
     let abl = <button className="ui primary button" onClick={this.callBefore}>Adopt pet</button>
 
+
+
+
     //  <button className="ui disabled button">Already adopted</button>
     //  <button className="ui primary button" onClick={this.props.onAdoptPet}>Adopt pet</button>
 
@@ -21,7 +24,9 @@ class Pet extends React.Component {
       <div className="card">
         <div className="content">
 
-        
+
+
+
           <a className="header">
             {/*'♀' OR '♂' */}
             {this.props.pet.gender === 'male' ? '♂':'♀'}
